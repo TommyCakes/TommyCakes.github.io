@@ -1,30 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
 body {
   background: mintcream;
   text-align: center;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px; }
+
+.top-heading {
+  z-index: 99;
+  margin: 0 auto;
+  width: 100%;
+  color: #354145; }
+  .top-heading h3, .top-heading h4 {
+    font-family: 'Montserrat', sans-serif; }
 
 .short {
   width: 50%;
   margin-top: -5px; }
 
-.main-header h3 {
-  position: relative;
-  margin-top: -10px; }
-
 .main-header img {
+  position: relative;
   height: auto;
   width: 100%; }
 
 .gallery h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.3em; }
-
-.gallery #tech-down {
-  margin-top: 50px; }
-
-.gallery #tech-down2 {
-  margin-top: -10px; }
 
 .gallery .caption {
   width: 85%;
@@ -43,9 +44,24 @@ body {
   position: relative;
   top: 10px; }
 
-.about {
-  width: 50%;
+.designs img {
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  height: 300px;
+  max-height: 300px;
+  margin: 0 auto;
   position: relative;
+  margin-bottom: 20px;
+  transition: opacity 1.5s; }
+  .designs img:hover {
+    opacity: 0.6;
+    transition: opacity 1.5s; }
+
+.about {
+  width: 75%;
+  position: relative;
+  font-size: 1.3em;
   margin: 0 auto; }
 
 .skills ul {
@@ -53,26 +69,28 @@ body {
   color: black; }
   .skills ul li {
     display: block;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.4em; }
+    .skills ul li img {
+      width: 50px; }
 
 #social {
-  text-align: center;
   background: #2B547E;
   color: white;
-  padding: 50px; }
-  #social h4 {
-    font-size: 1em;
-    padding: 0;
-    margin-top: -30px; }
-  #social ul {
-    margin: 0 auto;
-    position: relative; }
-    #social ul li {
+  padding: 10px;
+  width: 100%; }
+  #social p {
+    font-size: 1.2em; }
+  #social .icons {
+    width: 40%;
+    margin: 0 auto; }
+    #social .icons li {
       display: inline-block;
-      font-size: 16px;
-      opacity: 0.2;
-      -webkit-transition: color 2s, font-size 0.5s, opacity 2s; }
-      #social ul li:hover {
-        color: #659EC7;
-        font-size: 17px;
-        opacity: 0.9; }
+      font-size: 15px; }
+      #social .icons li .fa {
+        color: white;
+        -webkit-transition: opacity 1s; }
+        #social .icons li .fa:hover {
+          opacity: 0.4;
+          -webkit-transition: opacity 1s; }
