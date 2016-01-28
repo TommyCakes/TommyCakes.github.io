@@ -1,0 +1,19 @@
+#nav {
+  z-index: 9999;
+  width: 100%;
+  float: left;
+  padding: 0;
+  background: black;
+  list-style: none; }
+  #nav li {
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 0 auto; }
+    #nav li a {
+      text-decoration: none;
+      font-weight: 100;
+      color: #FFF;
+      margin-right: 10px;
+      transition: color 1s; }
+      #nav li a:hover {
+        color: lightblue; }

@@ -1,5 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
+#nav {
+  z-index: 9999;
+  width: 100%;
+  float: left;
+  padding: 0;
+  background: black;
+  list-style: none; }
+  #nav li {
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 0 auto; }
+    #nav li a {
+      text-decoration: none;
+      font-weight: 100;
+      color: #FFF;
+      margin-right: 10px;
+      transition: color 1s; }
+      #nav li a:hover {
+        color: lightblue; }
+
 body {
   background: mintcream;
   text-align: center;
@@ -74,6 +94,17 @@ body {
     font-size: 1em; }
     .skills ul li img {
       width: 50px; }
+
+.music .photo {
+  width: 50%;
+  margin: 0 auto; }
+
+.films .videoWrapper {
+  margin-top: 200px;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0; }
 
 #social {
   background: #2B547E;
