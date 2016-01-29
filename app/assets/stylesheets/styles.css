@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
+body {
+  background: mintcream;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px; }
+
 #nav {
   z-index: 9999;
   width: 100%;
@@ -20,12 +26,6 @@
       #nav li a:hover {
         color: lightblue; }
 
-body {
-  background: mintcream;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin-top: -10px; }
-
 .top-heading {
   z-index: 99;
   margin: 0 auto;
@@ -43,24 +43,24 @@ body {
   height: auto;
   width: 100%; }
 
-.gallery h2 {
+.projects .gallery h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em; }
 
-.gallery .caption {
+.projects .gallery .caption {
   width: 85%;
   position: relative;
   margin: 0 auto; }
 
-.gallery .work {
+.projects .gallery .work {
   height: 200px;
   width: 200px;
   border-radius: 50%; }
 
-.gallery img {
+.projects .gallery img {
   padding: 10px; }
 
-.gallery .technology {
+.projects .gallery .technology {
   position: relative;
   top: 10px; }
 
@@ -83,6 +83,11 @@ body {
   position: relative;
   font-size: 1.3em;
   margin: 0 auto; }
+  .about img {
+    height: auto;
+    width: 100px;
+    positon: relative;
+    margin-bottom: 20px; }
 
 .skills ul {
   padding: 150px;
@@ -104,7 +109,15 @@ body {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
+  padding-top: 25px;
   height: 0; }
+
+.films .videoWrapper iframe {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 #social {
   background: #2B547E;

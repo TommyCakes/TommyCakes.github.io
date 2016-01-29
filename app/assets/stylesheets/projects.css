@@ -1,0 +1,20 @@
+.projects .gallery h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em; }
+
+.projects .gallery .caption {
+  width: 85%;
+  position: relative;
+  margin: 0 auto; }
+
+.projects .gallery .work {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }
+
+.projects .gallery img {
+  padding: 10px; }
+
+.projects .gallery .technology {
+  position: relative;
+  top: 10px; }

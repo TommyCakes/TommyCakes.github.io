@@ -1,15 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
-@import 'navbar';
 body {
   background: mintcream;
   text-align:center;
   // font-family: 'Montserrat', sans-serif;
-  // font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   margin-top:-10px;
 
 }
+
+@import 'navbar';
+
+// header
 .top-heading {
   z-index:99;
   margin:0 auto;
@@ -28,52 +30,23 @@ body {
   width:100%;
   }
 }
-.gallery {
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size:1.3em;
-  }
-  .caption {
-    width:85%;
-    position:relative;
-    margin:0 auto;
-  }
-  .work {
-  height:200px;
-  width:200px;
-  border-radius:50%;
-  }
-  img {
-    padding:10px;
-  }
-  .technology {
-    position:relative;
-    top:10px;
-  }
-}
-.designs {
-  img {
-    width:100%;
-    min-width:200px;
-    max-width:400px;
-    height:300px;
-    // min-height:300px;
-    max-height:300px;
-    margin:0 auto;
-    position: relative;
-    margin-bottom:20px;
-    transition: opacity 1.5s;
-    &:hover {
-      opacity:0.6;
-      transition: opacity 1.5s;
-    }
-  }
-}
+
+@import 'projects';
+
+@import 'designs';
+
 .about {
   width:75%;
   position:relative;
   font-size: 1.3em;
   margin:0 auto;
+  img {
+    height:auto;
+    width:100px;
+    positon:relative;
+    margin-bottom:20px;
+    // border-radius:70%;
+  }
 }
 
 .skills {
@@ -106,47 +79,16 @@ body {
     margin-top:200px;
   	position: relative;
   	padding-bottom: 56.25%; /* 16:9 */
-  	// padding-top: 25px;
+  	padding-top: 25px;
   	height: 0;
   }
-  // .videoWrapper iframe {
-  // 	position: absolute;
-  // 	top:  0px;
-  // 	left: 0;
-  // 	width: 100%;
-  // 	height: 100%;
-  // }
+  .videoWrapper iframe {
+  	position: absolute;
+  	top:  0px;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
 }
-#social {
-  background: #2B547E;
-  color: white;
-  padding: 10px;
-  width:100%;
-  p {
-    font-size:1.2em;
-  }
-  .icons {
-    width:40%;
-    margin:0 auto;
-      li {
-          display: inline-block;
-          font-size: 15px;
-          .fa {
-            color:white;
-            -webkit-transition: opacity 1s;
-            &:hover {
-              opacity: 0.4;
-              -webkit-transition: opacity 1s;
-            }
-          }
-        }
-    }
-  }
 
-  // ul {
-  //   li {
-  //     display: inline-block;
-  //     font-size: 20px;
-  //     margin: 0 auto;
-  //     }
-  //   }
+@import 'social-bar';

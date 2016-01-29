@@ -1,0 +1,25 @@
+#social {
+  background: #2B547E;
+  color: white;
+  padding: 10px;
+  width:100%;
+  p {
+    font-size:1.2em;
+  }
+  .icons {
+    width:40%;
+    margin:0 auto;
+      li {
+          display: inline-block;
+          font-size: 15px;
+          .fa {
+            color:white;
+            -webkit-transition: opacity 1s;
+            &:hover {
+              opacity: 0.4;
+              -webkit-transition: opacity 1s;
+            }
+          }
+        }
+    }
+  }

@@ -1,0 +1,18 @@
+.designs {
+  img {
+    width:100%;
+    min-width:200px;
+    max-width:400px;
+    height:300px;
+    // min-height:300px;
+    max-height:300px;
+    margin:0 auto;
+    position: relative;
+    margin-bottom:20px;
+    transition: opacity 1.5s;
+    &:hover {
+      opacity:0.6;
+      transition: opacity 1.5s;
+    }
+  }
+}
