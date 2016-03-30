@@ -1,13 +1,14 @@
 #nav {
   z-index: 9999;
   width: 100%;
-  float: left;
-  padding: 10;
+  padding: 10px;
+  top: 0px;
+  margin-top: -10px;
   background: black;
   list-style: none; }
   #nav li {
     display: inline-block;
-    padding: 15px 15px;
+    padding: 10px 15px;
     margin: 0 auto; }
     #nav li a {
       text-decoration: none;
