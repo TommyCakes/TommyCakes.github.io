@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
+
+@import 'grid';
+
+@import 'navbar';
+
+@import 'projects';
+
+@import 'designs';
+
+@import "otherSections";
+
+@import 'social-bar';
+
+
 body {
   background: mintcream;
   text-align:center;
@@ -8,8 +22,6 @@ body {
   margin-top:-10px;
 
 }
-
-@import 'navbar';
 
 // header
 .top-heading {
@@ -31,9 +43,6 @@ body {
   }
 }
 
-@import 'projects';
-
-@import 'designs';
 
 .about {
   width:75%;
@@ -64,8 +73,3 @@ body {
     }
   }
 }
-
-// music
-@import "otherSections";
-
-@import 'social-bar';

@@ -1,10 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500|Raleway:400,100,200,300,500);
-body {
-  background: mintcream;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin-top: -10px; }
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.grid {
+  width: 100%;
+  padding: 20px 20px 20px 20px; }
+  .grid:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px; }
 
 #nav {
   z-index: 9999;
@@ -25,23 +37,6 @@ body {
       transition: color 1s; }
       #nav li a:hover {
         color: lightblue; }
-
-.top-heading {
-  z-index: 99;
-  margin: 0 auto;
-  width: 100%;
-  color: #354145; }
-  .top-heading h3, .top-heading h4 {
-    font-family: 'Montserrat', sans-serif; }
-
-.short {
-  width: 50%;
-  margin-top: -5px; }
-
-.main-header img {
-  position: relative;
-  height: auto;
-  width: 100%; }
 
 .projects .gallery h2 {
   font-family: 'Roboto', sans-serif;
@@ -82,28 +77,6 @@ body {
     opacity: 0.6;
     transition: opacity 1.5s; }
 
-.about {
-  width: 75%;
-  position: relative;
-  font-size: 1.3em;
-  margin: 0 auto; }
-  .about img {
-    height: auto;
-    width: 100px;
-    positon: relative;
-    margin-bottom: 20px; }
-
-.skills ul {
-  padding: 150px;
-  color: black; }
-  .skills ul li {
-    display: block;
-    padding-bottom: 10px;
-    font-weight: 500;
-    font-size: 1em; }
-    .skills ul li img {
-      width: 50px; }
-
 .music .photo {
   width: 50%;
   margin: 0 auto; }
@@ -142,3 +115,48 @@ body {
         #social .icons li .fa:hover {
           opacity: 0.4;
           -webkit-transition: opacity 1s; }
+
+body {
+  background: mintcream;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px; }
+
+.top-heading {
+  z-index: 99;
+  margin: 0 auto;
+  width: 100%;
+  color: #354145; }
+  .top-heading h3, .top-heading h4 {
+    font-family: 'Montserrat', sans-serif; }
+
+.short {
+  width: 50%;
+  margin-top: -5px; }
+
+.main-header img {
+  position: relative;
+  height: auto;
+  width: 100%; }
+
+.about {
+  width: 75%;
+  position: relative;
+  font-size: 1.3em;
+  margin: 0 auto; }
+  .about img {
+    height: auto;
+    width: 100px;
+    positon: relative;
+    margin-bottom: 20px; }
+
+.skills ul {
+  padding: 150px;
+  color: black; }
+  .skills ul li {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1em; }
+    .skills ul li img {
+      width: 50px; }
