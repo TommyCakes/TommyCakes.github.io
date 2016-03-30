@@ -1,24 +1,22 @@
-.projects .gallery h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3em; }
-
-.projects .gallery .caption {
-  width: 85%;
-  position: relative;
-  margin: 0 auto; }
-
-.projects .gallery .work {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%; }
-
-.projects .gallery img {
-  padding: 10px;
-  transition: opacity 1.5s; }
-  .projects .gallery img:hover {
-    opacity: 0.6;
+.projects {
+  margin-bottom: 500px; }
+  .projects .gallery h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em; }
+  .projects .gallery .caption {
+    width: 85%;
+    position: relative;
+    margin: 0 auto; }
+  .projects .gallery .work {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%; }
+  .projects .gallery img {
+    padding: 10px;
     transition: opacity 1.5s; }
-
-.projects .gallery .technology {
-  position: relative;
-  top: 10px; }
+    .projects .gallery img:hover {
+      opacity: 0.6;
+      transition: opacity 1.5s; }
+  .projects .gallery .technology {
+    position: relative;
+    top: 10px; }
