@@ -48,12 +48,13 @@ hr {
     margin-bottom: 20px; }
 
 .skills {
-  height: 100px; }
-  .skills ul {
-    color: black; }
-    .skills ul li {
-      display: block;
-      padding: 100px;
-      padding-bottom: 10px;
-      font-weight: 500;
-      font-size: 1em; }
+  height: 150px; }
+  .skills .skill-list li {
+    display: inline;
+    margin: 10px; }
+    .skills .skill-list li i {
+      font-size: 50px; }
+
+@media only screen and (max-width: 760px) {
+  .skills {
+    height: 200px; } }

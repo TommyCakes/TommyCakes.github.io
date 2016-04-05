@@ -58,15 +58,23 @@
   }
 
   .skills {
-    height:100px;
-    ul {
-      color:black;
+    height:150px;
+    .skill-list {
       li {
-        display:block;
-        padding:100px;
-        padding-bottom:10px;
-        font-weight: 500;
-        font-size:1em;
+        display:inline;
+        margin:10px;
+        //padding-bottom:10px;
+        //font-weight: 500;
+        //font-size:1em;
+        i {
+          font-size:50px;
+        }
       }
+    }
+  }
+
+@media only screen and (max-width:760px) {
+    .skills {
+      height:200px;
     }
   }
