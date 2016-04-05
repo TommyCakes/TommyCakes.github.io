@@ -34,12 +34,13 @@ hr {
 
 .top-heading {
   z-index: 99;
+  clear: both;
   margin: 0 auto;
   width: 100%;
   color: #354145;
   font-family: 'Montserrat', sans-serif; }
   .top-heading .main-headline {
-    margin: -10px;
+    margin: 70px;
     font-size: 26px; }
   .top-heading h4 {
     font-size: 18px;
@@ -79,26 +80,51 @@ hr {
     .skills ul li img {
       width: 50px; }
 
-#nav {
+.nav {
   z-index: 9999;
   width: 100%;
-  padding: 10px;
+  height: 80px;
   top: 0px;
-  margin-top: -10px;
+  margin-top: -15px;
   background: black;
   list-style: none; }
-  #nav li {
+  .nav ul li {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 0px 20px;
+    position: relative;
+    top: 10px;
     margin: 0 auto; }
-    #nav li a {
+    .nav ul li a {
       text-decoration: none;
       font-weight: 100;
       color: #FFF;
       margin-right: 10px;
       transition: color 1s; }
-      #nav li a:hover {
+      .nav ul li a:hover {
         color: lightblue; }
+
+.nav > .right {
+  position: relative;
+  top: -55px;
+  float: right;
+  margin-right: 20px; }
+  .nav > .right li {
+    padding: 0px 30px; }
+
+@media only screen and (max-width: 900px) {
+  .nav > .right {
+    top: 0px;
+    left: 5px;
+    float: none; } }
+
+@media only screen and (max-width: 480px) {
+  .nav > li {
+    padding: 5px 40px;
+    position: relative; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .nav > li > a {
+    padding: 10px 12px; } }
 
 .projects {
   margin-bottom: 500px; }
