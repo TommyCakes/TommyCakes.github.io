@@ -1,0 +1,27 @@
+#social {
+  background: #2B547E;
+  color: white;
+  height:100px;
+  p {
+    font-size:1.2em;
+  }
+  .icons {
+    width:100%;
+    margin: 0 auto;
+    left:-19px;
+    position:relative;
+      li {
+          display: inline-block;
+          font-size: 17px;
+          padding:0px 40px;
+          .fa {
+            color:white;
+            -webkit-transition: all 1s ease-in;
+            &:hover {
+              opacity:0.8;
+              transition: opacity 1.5s;
+            }
+          }
+        }
+    }
+  }

@@ -31,10 +31,18 @@
   position: relative;;
   top:-55px;
   float:right;
+  clear:left;
   margin-right:20px;
   li {
     padding: 0px 30px;
   }
+}
+
+.nav>.left {
+  position: relative;
+  // /top:-55px;
+  float:left;
+  margin-left:20px;
 }
 
 
@@ -43,7 +51,11 @@
     top:0px;
     left:5px;
     float:none;
-
+  }
+  .nav>.left {
+    top:0px;
+    left:-10px;
+    float:none;
   }
 }
 
