@@ -13,19 +13,16 @@
     .work {
     height:220px;
     width:220px;
+    position: relative;
     border-radius:50%;
     }
     img {
       padding:10px;
-      transition: opacity 1.5s;
+      transition: all 1.5s;
       &:hover {
         opacity:0.6;
         transition: opacity 1.5s;
       }
-    }
-    .technology {
-      position:relative;
-      top:10px;
     }
   }
 }

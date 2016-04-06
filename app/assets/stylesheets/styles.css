@@ -39,81 +39,6 @@
   .col-1-8 {
     width: 30%; } }
 
-h1, h2, h3, h4, h5 {
-  font-weight: 500;
-  line-height: 1.1;
-  text-align: center; }
-
-h1 {
-  font-size: 40px; }
-
-hr {
-  border: 0;
-  border-top: 1px solid #eee; }
-
-.top-heading {
-  z-index: 99;
-  clear: both;
-  width: 100%;
-  color: #354145;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  top: 10px; }
-  .top-heading .main-headline {
-    display: none;
-    margin: 30px;
-    font-size: 26px; }
-  .top-heading h4 {
-    font-size: 18px;
-    font-weight: 500; }
-
-.short {
-  width: 50%;
-  margin-top: -10px;
-  position: relative;
-  border: 0;
-  border-top: 1px solid #eee; }
-
-.main-header img {
-  position: relative;
-  height: auto;
-  width: 90%; }
-
-.about {
-  width: 75%;
-  position: relative;
-  font-size: 1.3em;
-  margin: 0 auto; }
-  .about img {
-    height: auto;
-    width: 150px;
-    positon: relative;
-    margin-bottom: 20px; }
-
-.skills {
-  height: 150px;
-  margin: 0 auto;
-  text-align: center; }
-  .skills .skill-list li {
-    display: inline;
-    margin: 10px; }
-    .skills .skill-list li i {
-      font-size: 50px; }
-
-@media only screen and (max-width: 950px) {
-  .top-heading > .main-headline {
-    display: inline;
-    letter-spacing: 10px; } }
-
-@media only screen and (max-width: 760px) {
-  .skills {
-    height: 200px; } }
-
-@media only screen and (max-width: 530px) {
-  .skills > .skill-list {
-    left: 40px;
-    position: relative; } }
-
 .nav {
   z-index: 9999;
   width: 100%;
@@ -187,6 +112,32 @@ hr {
   .nav > li > a {
     padding: 10px 12px; } }
 
+.top-heading {
+  z-index: 99;
+  clear: both;
+  width: 100%;
+  color: #354145;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 10px; }
+  .top-heading .main-headline {
+    display: none;
+    margin: 30px;
+    font-size: 26px; }
+  .top-heading h4 {
+    font-size: 18px;
+    font-weight: 500; }
+
+.main-header img {
+  position: relative;
+  height: auto;
+  width: 90%; }
+
+@media only screen and (max-width: 950px) {
+  .top-heading > .main-headline {
+    display: inline;
+    letter-spacing: 10px; } }
+
 .projects {
   margin-bottom: 500px; }
   .projects .gallery h2 {
@@ -199,16 +150,14 @@ hr {
   .projects .gallery .work {
     height: 220px;
     width: 220px;
+    position: relative;
     border-radius: 50%; }
   .projects .gallery img {
     padding: 10px;
-    transition: opacity 1.5s; }
+    transition: all 1.5s; }
     .projects .gallery img:hover {
       opacity: 0.6;
       transition: opacity 1.5s; }
-  .projects .gallery .technology {
-    position: relative;
-    top: 10px; }
 
 .designs img {
   width: 100%;
@@ -224,6 +173,36 @@ hr {
   .designs img:hover {
     opacity: 0.6;
     transition: opacity 1.5s; }
+
+.about {
+  width: 75%;
+  position: relative;
+  font-size: 1.3em;
+  margin: 0 auto; }
+  .about img {
+    height: auto;
+    width: 150px;
+    positon: relative;
+    margin-bottom: 20px; }
+
+.skills {
+  height: 150px;
+  margin: 0 auto;
+  text-align: center; }
+  .skills .skill-list li {
+    display: inline;
+    margin: 10px; }
+    .skills .skill-list li i {
+      font-size: 50px; }
+
+@media only screen and (max-width: 760px) {
+  .skills {
+    height: 200px; } }
+
+@media only screen and (max-width: 530px) {
+  .skills > .skill-list {
+    left: 40px;
+    position: relative; } }
 
 .music .photo {
   width: 50%;
@@ -270,3 +249,22 @@ body {
   text-align: center;
   color: #333;
   font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center; }
+
+h1 {
+  font-size: 40px; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee; }
+
+.short {
+  width: 50%;
+  margin-top: -10px;
+  position: relative;
+  border: 0;
+  border-top: 1px solid #eee; }

@@ -3,13 +3,17 @@
 
 @import 'grid';
 
-@import 'home';
-
 @import 'navbar';
+
+@import 'home';
 
 @import 'projects';
 
 @import 'designs';
+
+@import 'about';
+
+@import 'skills';
 
 @import "otherSections";
 
@@ -21,4 +25,24 @@ body {
   text-align:center;
   color:#333;
   font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 500;
+  line-height: 1.1;
+  text-align:center;
+}
+h1 {
+  font-size:40px;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.short {
+  width:50%;
+  margin-top:-10px;
+  position: relative;
+  border: 0;
+  border-top: 1px solid #eee;
 }

@@ -1,15 +1,3 @@
-h1, h2, h3, h4, h5 {
-  font-weight: 500;
-  line-height: 1.1;
-  text-align: center; }
-
-h1 {
-  font-size: 40px; }
-
-hr {
-  border: 0;
-  border-top: 1px solid #eee; }
-
 .top-heading {
   z-index: 99;
   clear: both;
@@ -26,49 +14,12 @@ hr {
     font-size: 18px;
     font-weight: 500; }
 
-.short {
-  width: 50%;
-  margin-top: -10px;
-  position: relative;
-  border: 0;
-  border-top: 1px solid #eee; }
-
 .main-header img {
   position: relative;
   height: auto;
   width: 90%; }
 
-.about {
-  width: 75%;
-  position: relative;
-  font-size: 1.3em;
-  margin: 0 auto; }
-  .about img {
-    height: auto;
-    width: 150px;
-    positon: relative;
-    margin-bottom: 20px; }
-
-.skills {
-  height: 150px;
-  margin: 0 auto;
-  text-align: center; }
-  .skills .skill-list li {
-    display: inline;
-    margin: 10px; }
-    .skills .skill-list li i {
-      font-size: 50px; }
-
 @media only screen and (max-width: 950px) {
   .top-heading > .main-headline {
     display: inline;
     letter-spacing: 10px; } }
-
-@media only screen and (max-width: 760px) {
-  .skills {
-    height: 200px; } }
-
-@media only screen and (max-width: 530px) {
-  .skills > .skill-list {
-    left: 40px;
-    position: relative; } }
