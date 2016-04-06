@@ -20,36 +20,55 @@
       margin-right:10px;
       transition: color 1s;
       &:hover {
-        color:lightblue;
+        color:#b061c6;
         }
       }
     }
   }
 }
 
+.nav>.left {
+  position: relative;
+  clear:both;
+  float:left;
+  margin-left:10px;
+}
+
+.nav>.center {
+  position: relative;
+  top:-27px;
+  left:15px;
+  margin: 0 auto;
+  clear:both;
+  color:white;
+  letter-spacing: 15px;
+}
+
 .nav>.right {
-  position: relative;;
-  top:-55px;
+  position: relative;
+  top:-75px;
   float:right;
-  clear:left;
+  clear:both;
   margin-right:20px;
   li {
     padding: 0px 30px;
   }
 }
 
-.nav>.left {
-  position: relative;
-  // /top:-55px;
-  float:left;
-  margin-left:20px;
+@media only screen and (max-width: 950px) {
+  .nav>.right {
+    top:-55px;
+    left:5px;
+  }
+  .nav>.center {
+    display:none;
+  }
 }
-
 
 @media only screen and (max-width: 900px) {
   .nav>.right {
     top:0px;
-    left:5px;
+    left:2px;
     float:none;
   }
   .nav>.left {
@@ -59,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
   .nav>li {
     padding: 5px 40px;
     position: relative;

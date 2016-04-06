@@ -17,5 +17,4 @@
         color: white;
         -webkit-transition: all 1s ease-in; }
         #social .icons li .fa:hover {
-          opacity: 0.8;
-          transition: opacity 1.5s; }
+          color: #b061c6; }

@@ -2,6 +2,7 @@
   h1,h2,h3,h4,h5 {
     font-weight: 500;
     line-height: 1.1;
+    text-align:center;
   }
   h1 {
     font-size:40px;
@@ -19,6 +20,7 @@
     position: relative;
     top:10px;
     .main-headline {
+      display:none;
       margin:30px;
       font-size:26px;
     }
@@ -59,13 +61,12 @@
 
   .skills {
     height:150px;
+    margin: 0 auto;
+    text-align: center;
     .skill-list {
       li {
         display:inline;
         margin:10px;
-        //padding-bottom:10px;
-        //font-weight: 500;
-        //font-size:1em;
         i {
           font-size:50px;
         }
@@ -73,8 +74,25 @@
     }
   }
 
+@media only screen and (max-width: 950px) {
+    .top-heading>.main-headline {
+      display:inline;
+      letter-spacing: 10px;
+    }
+}
+
 @media only screen and (max-width:760px) {
     .skills {
       height:200px;
+      .skill-list>li {
+
+      }
     }
   }
+
+@media only screen and (max-width: 530px) {
+  .skills>.skill-list {
+    left: 40px;
+    position: relative;
+  }
+}
