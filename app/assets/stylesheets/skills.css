@@ -17,3 +17,9 @@
   .skills > .skill-list {
     left: 40px;
     position: relative; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .skills > .skill-list {
+    left: 0px; }
+    .skills > .skill-list li {
+      padding: 25px; } }

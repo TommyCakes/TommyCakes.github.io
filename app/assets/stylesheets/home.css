@@ -8,7 +8,7 @@
   top: 10px; }
   .top-heading .main-headline {
     display: none;
-    margin: 30px;
+    margin: 0px;
     font-size: 26px; }
   .top-heading h4 {
     font-size: 18px;
@@ -23,3 +23,7 @@
   .top-heading > .main-headline {
     display: inline;
     letter-spacing: 10px; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .top-heading > .main-headline {
+    letter-spacing: 1px; } }

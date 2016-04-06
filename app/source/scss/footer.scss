@@ -10,17 +10,26 @@
     margin: 0 auto;
     left:-19px;
     position:relative;
-      li {
-          display: inline-block;
-          font-size: 17px;
-          padding:0px 40px;
-          .fa {
-            color:white;
-            -webkit-transition: all 1s ease-in;
-            &:hover {
-              color:#b061c6;
-            }
-          }
+    li {
+        display: inline-block;
+        font-size: 17px;
+        padding:0px 40px;
+        .fa {
+          color:white;
+          -webkit-transition: all 1s ease-in;
+          &:hover {
+            color:#b061c6;
         }
+      }
     }
   }
+}
+
+//mobile only rules
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  #social>.icons>ul>li {
+    padding:0px 25px;
+  }
+}

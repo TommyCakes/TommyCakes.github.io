@@ -37,7 +37,8 @@
 .nav>.center {
   position: relative;
   top:-27px;
-  left:15px;
+  left:10px;
+  width:190px;
   margin: 0 auto;
   clear:both;
   color:white;
@@ -46,7 +47,7 @@
 
 .nav>.right {
   position: relative;
-  top:-75px;
+  top:-95px;
   float:right;
   clear:both;
   margin-right:20px;
@@ -85,10 +86,17 @@
   }
 }
 
+// mobile only rules
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
-  .nav>li>a{
-    padding: 10px 12px;
+  .nav>.left{
+    padding: 0px 0px;
+    //left:10px;
+    margin-left:27px;
   }
+  .nav>.right {
+    padding: 0px 0px;
+    margin: 0;
+ }
 }
