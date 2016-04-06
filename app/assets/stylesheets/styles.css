@@ -27,7 +27,7 @@
 .col-1-8 {
   width: 10.5%; }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1090px) {
   .col-1-3 {
     width: 100%; } }
 
@@ -144,7 +144,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em; }
   .projects .gallery .caption {
-    width: 85%;
+    width: 100%;
     position: relative;
     margin: 0 auto; }
   .projects .gallery .work {
@@ -159,20 +159,22 @@
       opacity: 0.6;
       transition: opacity 1.5s; }
 
-.designs img {
-  width: 100%;
-  min-width: 200px;
-  max-width: 400px;
-  height: 300px;
-  max-height: 300px;
-  margin: 0 auto;
-  position: relative;
-  margin-bottom: 20px;
-  transition: opacity 1.5s;
-  margin: 10px; }
-  .designs img:hover {
-    opacity: 0.6;
-    transition: opacity 1.5s; }
+.designs {
+  margin-top: 40px; }
+  .designs img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+    transition: opacity 1.5s;
+    margin: 10px; }
+    .designs img:hover {
+      opacity: 0.6;
+      transition: opacity 1.5s; }
 
 .about {
   width: 75%;
@@ -191,7 +193,8 @@
   text-align: center; }
   .skills .skill-list li {
     display: inline;
-    margin: 10px; }
+    margin: 10px;
+    padding: 20px; }
     .skills .skill-list li i {
       font-size: 50px; }
 
