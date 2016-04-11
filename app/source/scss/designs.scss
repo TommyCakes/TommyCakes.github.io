@@ -9,11 +9,11 @@
     margin:0 auto;
     position: relative;
     margin-bottom:20px;
-    transition: opacity 1.5s;
+    transition: opacity 0.5s;
     margin:10px;
     &:hover {
       opacity:0.6;
-      transition: opacity 1.5s;
+      transition: opacity 0.5s;
     }
   }
 }

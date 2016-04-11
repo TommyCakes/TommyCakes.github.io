@@ -17,7 +17,7 @@
       font-weight: 100;
       color: #FFF;
       margin-right: 10px;
-      transition: color 1s; }
+      transition: color 0.5s; }
       .nav ul li a:hover {
         color: #b061c6; }
 

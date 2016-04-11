@@ -9,6 +9,11 @@
         padding:20px;
         i {
           font-size:50px;
+          transition: all .2s;
+          &:hover {
+            color:#903ca7;
+
+          }
         }
       }
     }
@@ -18,7 +23,6 @@
       .skills {
         height:200px;
         .skill-list>li {
-
         }
       }
     }

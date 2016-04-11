@@ -1,7 +1,9 @@
 #social {
   background: #2B547E;
+  position: relative;
   color: white;
   height:100px;
+  width:100%;
   p {
     font-size:1.2em;
   }
@@ -16,7 +18,7 @@
         padding:0px 40px;
         .fa {
           color:white;
-          -webkit-transition: all 1s ease-in;
+          -webkit-transition: all .3s ease-in;
           &:hover {
             color:#b061c6;
         }

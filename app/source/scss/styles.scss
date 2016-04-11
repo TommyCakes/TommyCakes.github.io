@@ -3,6 +3,8 @@
 
 @import 'grid';
 
+@import 'normalize';
+
 @import 'navbar';
 
 @import 'home';
@@ -19,15 +21,13 @@
 
 @import 'footer';
 
-html {
-  width:100%;
-}
 
 body {
   background: mintcream;
   text-align:center;
   color:#333;
   font-family: 'Roboto', sans-serif;
+  margin-bottom:-10px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -37,6 +37,7 @@ h1,h2,h3,h4,h5 {
 }
 h1 {
   font-size:40px;
+  //color:#903ca7;
 }
 hr {
   border: 0;
