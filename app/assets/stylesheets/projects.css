@@ -12,6 +12,12 @@
     width: 220px;
     position: relative;
     border-radius: 50%; }
+    .projects .gallery .work_black-circle {
+      background: black;
+      height: 220px;
+      width: 220px;
+      position: relative;
+      border-radius: 50%; }
   .projects .gallery img {
     padding: 10px;
     transition: all 0.5s; }
