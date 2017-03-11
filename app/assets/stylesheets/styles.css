@@ -515,12 +515,21 @@ textarea {
   .projects .gallery .caption {
     width: 100%;
     position: relative;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 25px;
+    color: rgba(45, 9, 9, 0.77); }
   .projects .gallery .work {
     height: 220px;
     width: 220px;
     position: relative;
     border-radius: 50%; }
+    .projects .gallery .work_black-circle {
+      background: black;
+      height: 220px;
+      width: 220px;
+      position: relative;
+      border-radius: 50%; }
   .projects .gallery img {
     padding: 10px;
     transition: all 0.5s; }
@@ -553,8 +562,13 @@ textarea {
   .about img {
     height: auto;
     width: 150px;
-    positon: relative;
+    position: relative;
     margin-bottom: 20px; }
+  .about p {
+    padding: 20px;
+    line-height: 25px;
+    color: rgba(45, 9, 9, 0.77);
+    font-size: 20px; }
 
 .skills {
   height: 150px;

@@ -9,12 +9,22 @@
       width:100%;
       position:relative;
       margin:0 auto;
+      padding: 10px;
+      line-height: 25px;
+      color: rgba(45, 9, 9, 0.77);
     }
     .work {
     height:220px;
     width:220px;
     position: relative;
     border-radius:50%;
+      &_black-circle {
+        background: black;
+        height:220px;
+        width:220px;
+        position: relative;
+        border-radius:50%;
+      }
     }
     img {
       padding:10px;
