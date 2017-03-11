@@ -515,7 +515,10 @@ textarea {
   .projects .gallery .caption {
     width: 100%;
     position: relative;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 25px;
+    color: rgba(45, 9, 9, 0.77); }
   .projects .gallery .work {
     height: 220px;
     width: 220px;
@@ -561,6 +564,11 @@ textarea {
     width: 150px;
     position: relative;
     margin-bottom: 20px; }
+  .about p {
+    padding: 20px;
+    line-height: 25px;
+    color: rgba(45, 9, 9, 0.77);
+    font-size: 20px; }
 
 .skills {
   height: 150px;
